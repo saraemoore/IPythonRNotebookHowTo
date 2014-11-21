@@ -23,7 +23,7 @@ and update on Mac OS/Linux:
 ```
 sudo easy_install --upgrade rpy2
 ```
-If you're having trouble with this step, you might want to check your Python installation or try installing manually (by downloading the module's source, unpacking it, and running `sudo python setup.py install` in the unpacked directory).
+  If you're having trouble with this step, you might want to check your Python installation or try installing manually (by downloading the module's source, unpacking it, and running `sudo python setup.py install` in the unpacked directory).
 5.  May be necessary if your Python distribution is earlier than 3.4 (true of Canopy and potentially true of Anaconda): install Python module `singledispatch`.  The installation and upgrade for this on Mac OS/Linux are analogous to the above. Install:
 ```
 sudo easy_install singledispatch
