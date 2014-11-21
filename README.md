@@ -5,7 +5,6 @@ Intro & Motivation
 ---------------------
 This repo contains three IPython notebooks, each representing a different way to run R code within an IPython notebook.  The intended audience is R users who have limited experience with Python, IPython, or IPython notebooks, but who would like to start using IPython notebooks for one reason or another.  There are a [handful][1] of [tutorials][2] [about][3] [this][4] available online, but none this tailored to interactive use, comprehensive, up-to-date (that I could find).  
 
-I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 [1]: http://nbviewer.ipython.org/github/ipython/ipython/blob/3607712653c66d63e0d7f13f073bde8c0f209ba8/docs/examples/notebooks/rmagic_extension.ipynb "IPython Rmagic Functions Extension example notebook"
 [2]: http://www.randalolson.com/2013/01/14/filling-in-pythons-gaps-in-statistics-packages-with-rmagic/ "Randy Olson's Rmagic + IPython intro]"
 [3]: http://nbviewer.ipython.org/gist/yoavram/5280132 "Yoav Ram's Example of using ggplot2 from IPython notebook"
