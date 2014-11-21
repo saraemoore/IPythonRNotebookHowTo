@@ -3,7 +3,7 @@ IPythonRNotebookHowTo
 
 Intro & Motivation
 ---------------------
-This repo contains three IPython notebooks, each representing a different way to run R code within an IPython notebook.  The intended audience is R users who have limited experience with Python, IPython, or IPython notebooks, but who would like to start using IPython notebooks for one reason or another.  There are a [handful][1] of [tutorials][2] [about][3] [this][4] available online, but none this tailored to interactive use, comprehensive, up-to-date (that I could find).  
+This repo contains three IPython notebooks, each representing a different way to run R code within an IPython notebook.  The intended audience is R users who have limited experience with Python, IPython, or IPython notebooks, but who would like to start using IPython notebooks for one reason or another.  There are a [handful][1] of [tutorials][2] [about][3] [this][4] available online, but none this tailored to interactive use, comprehensive, and up-to-date (that I could find).  
 
 [1]: http://nbviewer.ipython.org/github/ipython/ipython/blob/3607712653c66d63e0d7f13f073bde8c0f209ba8/docs/examples/notebooks/rmagic_extension.ipynb "IPython Rmagic Functions Extension example notebook"
 [2]: http://www.randalolson.com/2013/01/14/filling-in-pythons-gaps-in-statistics-packages-with-rmagic/ "Randy Olson's Rmagic + IPython intro]"
@@ -25,7 +25,7 @@ Setup
 
     If you're having trouble with this step, you might want to check your Python installation or try installing manually (by downloading the module's source, unpacking it, and running `sudo python setup.py install` in the unpacked directory).
 
-5. May be necessary if your Python distribution is earlier than 3.4 (true of Canopy and potentially true of Anaconda): install Python module `singledispatch`.  The installation and upgrade for this on Mac OS/Linux are analogous to the above. Install:
+5. May be necessary if your Python distribution version is earlier than 3.4 (true of Canopy and potentially true of Anaconda): install Python module `singledispatch`.  The installation and upgrade for this on Mac OS/Linux are analogous to the above. Install:
 
         sudo easy_install singledispatch
 
