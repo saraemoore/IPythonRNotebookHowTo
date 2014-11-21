@@ -15,22 +15,23 @@ Setup
 1. Install a Python distribution that includes IPython, aka Interactive Python, or update your current distribution.  Two distributions that will work are [Enthought Canopy](https://www.enthought.com/products/canopy/) and [Anaconda](https://store.continuum.io/cshop/anaconda/). As [Randy Olson points out](http://www.randalolson.com/2012/05/12/a-short-demo-on-how-to-use-ipython-notebook-as-a-research-notebook/), Enthought Canopy offers [free academic licenses](https://store.enthought.com/#canopy-academic) to students and staff of degree-granting institutions.  Anaconda is also free.
 2. Update IPython.  Details on doing this under both distributions above are provided on [IPython's installation page](http://ipython.org/install.html).
 3. Install or update [R](http://www.r-project.org/). If your R installation is only slightly out of date, you should be ok, but just note that an update may be necessary to allow everything to play nicely together.
-4. Necessary for two of the three strategies in this guide: install or upgrade [Python module `rpy2`](http://rpy.sourceforge.net/rpy2.html).  The easiest way to do this is to use Python module `easy_install`. Here's an example of what installation and update, respectively would look like on Mac OS/Linux:
+4. Necessary for two of the three strategies in this guide: install or upgrade [Python module `rpy2`](http://rpy.sourceforge.net/rpy2.html).  The easiest way to do this is to use Python module `easy_install`. Here's an example of what installation would look like on Mac OS/Linux:
 
         sudo easy_install rpy2
+
+    and update:
 
         sudo easy_install --upgrade rpy2
 
     If you're having trouble with this step, you might want to check your Python installation or try installing manually (by downloading the module's source, unpacking it, and running `sudo python setup.py install` in the unpacked directory).
 
 5. May be necessary if your Python distribution is earlier than 3.4 (true of Canopy and potentially true of Anaconda): install Python module `singledispatch`.  The installation and upgrade for this on Mac OS/Linux are analogous to the above. Install:
-```
-sudo easy_install singledispatch
-```
-and update:
-```
-sudo easy_install --upgrade singledispatch
-```
+
+        sudo easy_install singledispatch
+
+    and update:
+
+        sudo easy_install --upgrade singledispatch
 
 Use
 ---------------------
